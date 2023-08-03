@@ -1,0 +1,19 @@
+level : error: Aug-02-2023 19:13:42: 	Employee already registered with this email
+level : error: Aug-02-2023 19:13:42: 	Employee already registered with this email
+level : info: Aug-02-2023 19:14:00: 	Employee register successfully
+level : info: Aug-03-2023 16:11:33: 	Emplloyee login successfully
+level : info: Aug-03-2023 16:13:18: 	Email Send Successfully
+level : error: Aug-03-2023 16:57:33: 	Error: Error: data and salt arguments required
+level : error: Aug-03-2023 16:57:33: 	Error: Error: data and salt arguments required
+level : error: Aug-03-2023 16:59:37: 	Error: ReferenceError: empSchema is not defined
+level : error: Aug-03-2023 16:59:37: 	Error: ReferenceError: empSchema is not defined
+level : info: Aug-03-2023 17:00:19: 	Password update successfully
+level : error: Aug-03-2023 17:19:09: 	Employee email or password invalid
+level : error: Aug-03-2023 17:19:09: 	Employee email or password invalid
+level : info: Aug-03-2023 17:19:55: 	Employee login successfully
+level : error: Aug-03-2023 17:26:03: 	Password and confirmPassword is not matched
+level : error: Aug-03-2023 17:26:03: 	Password and confirmPassword is not matched
+level : info: Aug-03-2023 17:26:46: 	Password update successfully
+level : info: Aug-03-2023 18:47:57: 	Employee login successfully
+level : info: Aug-03-2023 18:48:09: 	Email Send Successfully
+level : info: Aug-03-2023 18:49:56: 	Email Send Successfully
