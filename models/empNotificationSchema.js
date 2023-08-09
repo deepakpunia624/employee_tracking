@@ -9,13 +9,13 @@ const empNotificationSchema = new mongoose.Schema({
         type : String,
         required : true,
     },
-    emp_id : {
+    empId : {
         type : mongoose.Types.ObjectId,ref:"employee",
         required : true,
     },
     isActive : {
         type : String,
-        required : true,
+        default : true,
     },
     
 })

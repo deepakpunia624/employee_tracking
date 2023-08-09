@@ -41,9 +41,9 @@ const employeeSchema = new mongoose.Schema({
         type : String,
         require : true,
     },
-    userRole : {
+    role : {
         type : String,
-        required : true,
+        default : "employee",
     },
     isActive : {
         type : String,

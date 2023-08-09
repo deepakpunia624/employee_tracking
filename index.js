@@ -12,7 +12,7 @@ const HOST = "localhost";
 
 
 
-const commonRouter = require('./routes/mainRoutes')
+const commonRouter = require('./urls')
 app.use("/",commonRouter);
 
 

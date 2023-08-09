@@ -55,11 +55,7 @@ const empValSchema ={
         .required(),
     empTechnologies: joi
         .string()
-        .required(),
-    userRole: joi
-        .string()
         .required()
-
     }).unknown(true),
 
 loginEmployee: joi.object({
@@ -71,7 +67,7 @@ loginEmployee: joi.object({
     empPassword: joi
         .string()
         .required(),
-    }),
+    }).unknown(true),
 
 resetPassword: joi.object({
         newPassword: joiPassword

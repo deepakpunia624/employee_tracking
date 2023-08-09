@@ -12,18 +12,15 @@ const authService = require("../service/authService");
 //....signup API.....
 module.exports = {
  createEmployee : async (req,res) =>{
-    const salt = await bcrypt.genSalt(10);
+    // const salt = await bcrypt.genSalt(10);
     let empData = new employeeSchema(req.body);
     try{
-       // const isEmployeeExist = await employeeSchema.findOne({
-           // empEmail: req.body.empEmail,
-        //});
         let data = await authService.isEmployee(req.body.empEmail)
         if(data){
             employeeLogger.log("error","Employee already registered with this email");
             res.status(401).json({
                 success : false,
-                message : "employee is already registerd with this email",
+                message : "Employee is already registerd with this email",
             });
         }else{
             if(empData.empGender === "male"){
@@ -43,7 +40,7 @@ module.exports = {
             employeeLogger.log("info","Employee register successfully");
             res.status(201).json({
                 success : true,
-                message : "employee successfully registered",
+                message : "Employee successfully registered",
                 employee : employee,
             });
         }
@@ -63,14 +60,14 @@ module.exports = {
              employeeLogger.log("info","Employee login successfully");
             res.status(200).json({
                 success : true,
-                mesage : "login successfully",
+                mesage : "Login successfully",
                 accesstoken : token
             });
         }else{
             employeeLogger.log("error","Employee email or password invalid");
             res.status(401).json({
                 success : false,
-                message : "invalid email or password",
+                message : "Invalid email or password",
             });
         }
 }catch(error){
@@ -148,6 +145,47 @@ employeeResetPassword: async (req, res) => {
         res.status(500).json({
             success: false,
             message: `Error occur : ${error.message}`,
+        });
+    }
+},
+
+//......changePassword API ..........
+changePassword: async (req, res) => {
+    const empId = req.params.id;
+    const { oldPassword, newPassword, confirmPassword } = req.body;
+    try {
+        const empData = await employeeSchema.findById(empId);
+        const checkPass = await bcrypt.compare(oldPassword, empData.empPassword);
+        if (checkPass) {
+            if (newPassword === confirmPassword) {
+                const salt = await bcrypt.genSalt(10);
+                const hashPassword = await bcrypt.hash(newPassword, salt); // Remove parseInt()
+                empData.empPassword = hashPassword;
+                employeeLogger.log("info", 'Password updated successfully');
+                await empData.save(); // Save the updated employee data
+                res.status(200).json({
+                    success: true,
+                    message: "Password updated successfully"
+                });
+             } else {
+                employeeLogger.log("error", 'newPassword and confirmPassword do not match');
+                res.status(400).json({
+                    success: false,
+                    message: 'newPassword and confirmPassword do not match'
+                });
+            }
+        }else {
+            employeeLogger.log("error", "Invalid old password");
+            res.status(400).json({
+                success: false,
+                message: 'Invalid old password'
+            });
+        }
+    } catch (error) {
+        employeeLogger.log("error", error.message);
+        res.status(500).json({
+            success: false,
+            message: error.message
         });
     }
 }

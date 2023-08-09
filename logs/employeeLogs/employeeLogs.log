@@ -17,3 +17,51 @@ level : info: Aug-03-2023 17:26:46: 	Password update successfully
 level : info: Aug-03-2023 18:47:57: 	Employee login successfully
 level : info: Aug-03-2023 18:48:09: 	Email Send Successfully
 level : info: Aug-03-2023 18:49:56: 	Email Send Successfully
+level : info: Aug-03-2023 19:42:02: 	Employee login successfully
+level : info: Aug-03-2023 19:42:12: 	Email Send Successfully
+level : info: Aug-03-2023 19:44:26: 	Email Send Successfully
+level : info: Aug-03-2023 19:47:57: 	Email Send Successfully
+level : info: Aug-07-2023 17:04:53: 	Employee login successfully
+level : error: Aug-07-2023 17:07:18: 	Employee already registered with this email
+level : error: Aug-07-2023 17:07:18: 	Employee already registered with this email
+level : error: Aug-07-2023 17:07:25: 	Employee already registered with this email
+level : error: Aug-07-2023 17:07:25: 	Employee already registered with this email
+level : info: Aug-07-2023 17:25:41: 	Employee login successfully
+level : info: Aug-07-2023 17:25:49: 	Email Send Successfully
+level : info: Aug-07-2023 17:25:58: 	Password update successfully
+level : info: Aug-07-2023 17:36:57: 	Employee register successfully
+level : error: Aug-08-2023 00:39:03: 	Error: ReferenceError: userData is not defined
+level : error: Aug-08-2023 00:39:03: 	Error: ReferenceError: userData is not defined
+level : error: Aug-08-2023 00:41:07: 	Error: TypeError: Assignment to constant variable.
+level : error: Aug-08-2023 00:41:07: 	Error: TypeError: Assignment to constant variable.
+level : error: Aug-08-2023 00:42:56: 	Error: Error: cb must be a function or null to return a Promise
+level : error: Aug-08-2023 00:42:56: 	Error: Error: cb must be a function or null to return a Promise
+level : info: Aug-08-2023 23:42:59: 	Employee login successfully
+level : info: Aug-08-2023 23:43:10: 	Password update successfully
+level : info: Aug-08-2023 23:44:51: 	Password update successfully
+level : error: Aug-08-2023 23:45:19: 	data and hash arguments required
+level : error: Aug-08-2023 23:45:19: 	data and hash arguments required
+level : error: Aug-08-2023 23:46:47: 	Employee already registered with this email
+level : error: Aug-08-2023 23:46:47: 	Employee already registered with this email
+level : info: Aug-08-2023 23:46:53: 	Employee register successfully
+level : info: Aug-08-2023 23:47:18: 	Employee login successfully
+level : info: Aug-08-2023 23:48:40: 	Password updated successfully
+level : error: Aug-08-2023 23:52:00: 	Invalid email or password
+level : error: Aug-08-2023 23:52:00: 	Invalid email or password
+level : error: Aug-08-2023 23:52:10: 	Invalid email or password
+level : error: Aug-08-2023 23:52:10: 	Invalid email or password
+level : info: Aug-08-2023 23:52:18: 	Password updated successfully
+level : error: Aug-09-2023 17:03:50: 	Employee already registered with this email
+level : error: Aug-09-2023 17:03:50: 	Employee already registered with this email
+level : info: Aug-09-2023 17:18:19: 	Employee register successfully
+level : info: Aug-09-2023 17:21:24: 	Employee login successfully
+level : info: Aug-09-2023 17:42:08: 	Employee login successfully
+level : info: Aug-09-2023 17:43:23: 	Employee login successfully
+level : info: Aug-09-2023 17:52:18: 	Employee login successfully
+level : info: Aug-09-2023 18:10:47: 	Employee login successfully
+level : info: Aug-09-2023 18:15:42: 	Employee login successfully
+level : info: Aug-09-2023 18:28:50: 	Employee register successfully
+level : info: Aug-09-2023 18:29:04: 	Employee login successfully
+level : info: Aug-09-2023 18:32:09: 	Employee login successfully
+level : info: Aug-09-2023 18:41:23: 	Employee login successfully
+level : info: Aug-09-2023 18:55:52: 	Employee login successfully

@@ -1,0 +1,9 @@
+level : info: Aug-08-2023 22:39:18: 	Applied for other leave
+level : info: Aug-08-2023 22:39:47: 	Applied for casual leave
+level : info: Aug-08-2023 22:40:01: 	Applied for sick leave
+level : info: Aug-09-2023 15:56:42: 	Applied for sick leave
+level : error: Aug-09-2023 16:28:31: 	empleave validation failed: endDate: Cast to date failed for value "13-08-2023" (type string) at path "endDate"
+level : error: Aug-09-2023 16:28:31: 	empleave validation failed: endDate: Cast to date failed for value "13-08-2023" (type string) at path "endDate"
+level : error: Aug-09-2023 16:31:45: 	empleave validation failed: endDate: Cast to date failed for value "13-08-2023" (type string) at path "endDate"
+level : error: Aug-09-2023 16:31:45: 	empleave validation failed: endDate: Cast to date failed for value "13-08-2023" (type string) at path "endDate"
+level : info: Aug-09-2023 16:32:35: 	Applied for sick leave
