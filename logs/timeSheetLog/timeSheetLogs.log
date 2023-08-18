@@ -1,2 +1,18 @@
 level : info: Aug-08-2023 21:56:20: 	ClockIn successfully!
 level : info: Aug-08-2023 21:56:27: 	Clock out successful
+level : info: Aug-10-2023 19:07:23: 	ClockIn successfully!
+level : error: Aug-10-2023 19:07:37: 	Cannot read properties of null (reading 'empClockIn')
+level : error: Aug-10-2023 19:07:37: 	Cannot read properties of null (reading 'empClockIn')
+level : info: Aug-10-2023 19:07:56: 	ClockIn successfully!
+level : error: Aug-10-2023 19:08:03: 	Cannot read properties of null (reading 'empClockIn')
+level : error: Aug-10-2023 19:08:03: 	Cannot read properties of null (reading 'empClockIn')
+level : info: Aug-10-2023 19:09:50: 	Clock out successful
+level : info: Aug-10-2023 19:14:55: 	Clock out successful
+level : info: Aug-10-2023 19:56:11: 	ClockIn successfully!
+level : error: Aug-10-2023 19:56:18: 	Cannot read properties of null (reading 'empClockIn')
+level : error: Aug-10-2023 19:56:18: 	Cannot read properties of null (reading 'empClockIn')
+level : info: Aug-10-2023 19:57:02: 	Clock out successful
+level : info: Aug-10-2023 19:58:59: 	ClockIn successfully!
+level : info: Aug-10-2023 19:59:26: 	Clock out successful
+level : info: Aug-11-2023 14:41:17: 	ClockIn successfully!
+level : info: Aug-11-2023 14:41:33: 	Clock out successful

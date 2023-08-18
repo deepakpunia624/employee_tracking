@@ -65,3 +65,59 @@ level : info: Aug-09-2023 18:29:04: 	Employee login successfully
 level : info: Aug-09-2023 18:32:09: 	Employee login successfully
 level : info: Aug-09-2023 18:41:23: 	Employee login successfully
 level : info: Aug-09-2023 18:55:52: 	Employee login successfully
+level : info: Aug-10-2023 15:03:54: 	Employee login successfully
+level : info: Aug-10-2023 15:04:02: 	Employee login successfully
+level : info: Aug-10-2023 15:04:09: 	Employee login successfully
+level : info: Aug-10-2023 15:04:19: 	Employee login successfully
+level : info: Aug-10-2023 15:04:34: 	Employee login successfully
+level : info: Aug-10-2023 15:32:01: 	Employee login successfully
+level : info: Aug-10-2023 15:32:10: 	Employee login successfully
+level : info: Aug-10-2023 15:54:42: 	Employee login successfully
+level : info: Aug-10-2023 16:14:21: 	Employee login successfully
+level : error: Aug-10-2023 16:47:56: 	Employee already registered with this email
+level : error: Aug-10-2023 16:47:56: 	Employee already registered with this email
+level : info: Aug-10-2023 16:48:03: 	Employee register successfully
+level : info: Aug-10-2023 16:49:11: 	Employee login successfully
+level : info: Aug-10-2023 16:49:29: 	Employee login successfully
+level : info: Aug-10-2023 19:53:51: 	Employee register successfully
+level : info: Aug-10-2023 19:54:22: 	Employee login successfully
+level : info: Aug-10-2023 19:58:16: 	Employee register successfully
+level : info: Aug-10-2023 19:58:29: 	Employee login successfully
+level : info: Aug-11-2023 16:08:17: 	Employee register successfully
+level : info: Aug-11-2023 16:08:33: 	Employee login successfully
+level : info: Aug-11-2023 16:08:44: 	Email Send Successfully
+level : error: Aug-14-2023 17:51:53: 	Employee already registered with this email
+level : error: Aug-14-2023 17:51:53: 	Employee already registered with this email
+level : info: Aug-14-2023 17:52:05: 	Employee register successfully
+level : info: Aug-14-2023 18:43:06: 	Employee register successfully
+level : info: Aug-14-2023 18:57:36: 	Employee register successfully
+level : info: Aug-16-2023 15:33:02: 	Employee login successfully
+level : info: Aug-17-2023 18:01:53: 	Employee register successfully
+level : info: Aug-17-2023 18:23:03: 	Profile pic and address updated successfully
+level : info: Aug-17-2023 18:25:44: 	Profile pic and address updated successfully
+level : info: Aug-18-2023 16:33:06: 	Employee register successfully
+level : error: Aug-18-2023 16:33:34: 	Employee already registered with this email
+level : error: Aug-18-2023 16:33:34: 	Employee already registered with this email
+level : info: Aug-18-2023 16:33:40: 	Employee register successfully
+level : info: Aug-18-2023 17:15:47: 	Password update successfully
+level : error: Aug-18-2023 17:15:54: 	Dont use old passord,try another password
+level : error: Aug-18-2023 17:15:54: 	Dont use old passord,try another password
+level : error: Aug-18-2023 17:20:23: 	Invalid old password
+level : error: Aug-18-2023 17:20:23: 	Invalid old password
+level : error: Aug-18-2023 17:21:09: 	Invalid old password
+level : error: Aug-18-2023 17:21:09: 	Invalid old password
+level : error: Aug-18-2023 17:21:21: 	Invalid old password
+level : error: Aug-18-2023 17:21:21: 	Invalid old password
+level : error: Aug-18-2023 17:21:37: 	checkEmployee is not defined
+level : error: Aug-18-2023 17:21:37: 	checkEmployee is not defined
+level : error: Aug-18-2023 17:22:17: 	isPasswordExist is not defined
+level : error: Aug-18-2023 17:22:17: 	isPasswordExist is not defined
+level : info: Aug-18-2023 17:22:49: 	Password updated successfully
+level : error: Aug-18-2023 17:22:53: 	Invalid old password
+level : error: Aug-18-2023 17:22:53: 	Invalid old password
+level : error: Aug-18-2023 17:23:56: 	Assignment to constant variable.
+level : error: Aug-18-2023 17:23:56: 	Assignment to constant variable.
+level : error: Aug-18-2023 17:24:20: 	Dont use old passord,try another password
+level : error: Aug-18-2023 17:24:20: 	Dont use old passord,try another password
+level : error: Aug-18-2023 17:25:06: 	Dont use old passord,try another password
+level : error: Aug-18-2023 17:25:06: 	Dont use old passord,try another password
