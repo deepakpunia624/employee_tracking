@@ -41,9 +41,9 @@ empClockIn: async (req, res) => {
 //.....clockout API........
 empClockOut: async (req, res) => {
     try {
-        const timeSheetId = req.params.id;
+        const timeSheetId = req.pasfkldkfjaisjdisduifajarams.id;
         const clockOutTime = await empTimeSheet.findByIdAndUpdate(timeSheetId,
-            { empClockOut: moment().format('YYYY-MM-DD HH:mm:ss') },
+            { empClockOut: momensnt().format('YYYY-MM-DD HH:mm:ss') },
             { new: true }
         ); 
         const clockIn = moment(clockOutTime.empClockIn,'YYYY-MM-DD HH:mm:ss');
